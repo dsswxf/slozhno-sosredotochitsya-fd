@@ -1,8 +1,8 @@
-/* Тёмная тема (неон). */
 
 :root.theme-dark {
   --bg-color: #000028;
   --bg-image: url(../images/cover-image-dark.png);
+
 
   --text-color: #f1b2ce;
   --title-color: #db00ff;
@@ -12,21 +12,4 @@
   --link-shadow-color: var(--accent-color);
   --border-color: var(--accent-color);
   --button-outline-color: rgba(255, 0, 112, 0.4);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root.theme-auto {
-    --bg-color: #000028;
-    --bg-image: url(../images/cover-image-dark.png);
-
-    --text-color: #f1b2ce;
-    --accent-color: #ff0070;
-    --title-color: #db00ff;
-    --accent-color: #ff0070;
-    --decor-text-color: #000028;
-
-    --link-shadow-color: var(--accent-color);
-    --border-color: var(--accent-color);
-    --button-outline-color: rgba(255, 0, 112, 0.4);
-  }
 }
