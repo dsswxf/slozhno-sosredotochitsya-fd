@@ -5,11 +5,35 @@
   --text-color: #353430;
   --title-color: #ffc2e6;
   --accent-color: #ff8dcb;
+  --rec-color: #ffeef6;
   --decor-text-color: #353430;
   --title-text-color: #353430;
 
   --link-shadow-color: var(--accent-color);
   --border-color: var(--text-color);
   --button-outline-color: rgba(53, 52, 48, 0.4);
+  --menu-button-color: var(--text-color);
   --title-shadow: 4px 4px 0 var(--accent-color);
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #fff1f7;
+    --bg-image: url(../images/cover-image-light.png);
+
+    --text-color: #353430;
+    --title-color: #ffc2e6;
+    --accent-color: #ff8dcb;
+    --rec-color: #ffeef6;
+    --decor-text-color: #353430;
+     --title-text-color: #353430;
+
+    --link-shadow-color: var(--accent-color);
+    --border-color: var(--text-color);
+    --button-outline-color: rgba(53, 52, 48, 0.4);
+    --menu-button-color: var(--text-color);
+    --title-shadow: 4px 4px 0 var(--accent-color);
+  }
 }
