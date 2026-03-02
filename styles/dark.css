@@ -6,6 +6,7 @@
   --text-color: #f1b2ce;
   --title-color: #db00ff;
   --accent-color: #ff0070;
+  --rec-color: #ff0070;
   --decor-text-color: #000028;
   --title-text-color: #ff0070;
 
@@ -18,7 +19,7 @@
 
 
 @media (prefers-color-scheme: dark) {
-  :root.theme-auto {
+  :root {
     --bg-color: #000028;
     --bg-image: url(../images/cover-image-dark.png);
 
@@ -31,7 +32,6 @@
     --border-color: var(--accent-color);
     --menu-button-color: var(--accent-color);
     --button-outline-color: rgba(255, 0, 112, 0.4);
-
     --title-shadow: 4px 4px 0 var(--accent-color);
   }
 }
